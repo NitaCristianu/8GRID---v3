@@ -5,9 +5,7 @@ import { AddPoint, Distance_Squared, GetClosestPoint, GetHovering, GetHoveringPo
 import { ePoint, ePoints_Calc, eSegment, variable } from "@/app/data/props";
 import { usePrevious } from "@/app/hooks/usePrevious";
 import useResize from "@/app/hooks/useResize";
-import { useMotionValue } from "framer-motion";
 import { useAtom } from "jotai";
-import { Exo_2 } from "next/font/google";
 import { useEffect, useRef, useState } from "react";
 
 function DrawPointCalc(ctx: CanvasRenderingContext2D, point: ePoints_Calc, points: ePoint[], points_calc: ePoints_Calc[], variables: variable[], offset: vec2D) {

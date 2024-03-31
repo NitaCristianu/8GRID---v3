@@ -8,11 +8,8 @@ import useResize from "@/app/hooks/useResize";
 import { AddPoint, DoesSegmentExist, GetAnyHoveringPoint, GetHoveringPoint, ObtainPosition, getCoords, getUniqueTag, toGlobal, toLocal } from "@/app/data/management";
 import { ePoints_Calc_data, ePoints_data, eSegments_data } from "@/app/data/elements";
 import { v4 } from "uuid";
-import { randomLetter } from "@/app/data/utils";
 import { segment_render_mode, tips } from "@/app/data/props";
-import { Faster_One, Irish_Grover } from "next/font/google";
 import { BACKGROUND } from '../../../data/globals';
-import Latex from "react-latex-next";
 
 export default function EuclidianGallery() {
     const [placing, setPlacing] = useState(null);

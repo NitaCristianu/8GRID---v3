@@ -17,7 +17,6 @@
     "@react-three/fiber": "^8.15.16",
     "@tinymce/tinymce-react": "^5.0.0",
     "@types/katex": "^0.16.7",
-    "@types/react-latex": "^2.0.3",
     "@types/three": "^0.161.2",
     "framer-motion": "^11.0.6",
     "jotai": "^2.7.0",
