@@ -140,9 +140,6 @@ const GraphComponent = React.memo((props: GraphProps) => {
         }}
     >
         <Plot
-            style={{
-                margin: -50,
-            }}
             data={data}
             config={{ displaylogo: false, modeBarButtonsToRemove: ['toImage'] }}
             layout={{
