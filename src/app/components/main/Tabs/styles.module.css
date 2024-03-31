@@ -1,0 +1,59 @@
+.EuclidianGallery {
+    width : 30%;
+    height : calc(100% - 2rem);
+    top : 1rem;
+    position : fixed;
+    border-radius: 1rem;
+    z-index: 8;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+}
+
+.EuclidianGallery::-webkit-scrollbar{
+    width : 1rem;
+}
+.EuclidianGallery::-webkit-scrollbar-track{
+    background: rgb(4, 28, 118);
+    border-radius: 0.8rem;
+    margin-block: 0.6rem;
+    margin-right: 0.2rem;
+}
+.EuclidianGallery::-webkit-scrollbar-thumb{
+    background: rgb(199, 209, 250);
+    border : .25rem solid rgb(4, 28, 114);
+    border-radius: 0.8rem;
+}
+
+.Menu {
+    width : 24%;
+    height : calc(100% - 2rem);
+    top : 1rem;
+    position : fixed;
+    border-radius: 1rem;
+    z-index: 8;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    padding : 1rem;
+}
+.Title1 {
+    width : 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    height : 1rem;
+    font-size : 2rem;    
+    font-family :'Poppins';
+    font-weight: bolder;
+    text-align: center;
+
+}
+.Card {
+    width : 5rem;
+    height : 5rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: .5rem;
+    text-align: center;
+    transition: cubic-bezier(0.19, 1, 0.22, 1), .3s;
+}
