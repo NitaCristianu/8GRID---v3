@@ -2,9 +2,8 @@
 import dynamic from 'next/dynamic';
 import { GRAPHS } from "@/app/data/elements";
 import { ACCENT, BACKGROUND, GRID_POSITION, HOVERING_GRAPHS, HOVERING_LABELS, MODE, SECONDARY, SELECTED_GRAPH, VARIABLES, vec2D } from "@/app/data/globals";
-import { IsPointInRect, parseRGB, ReplaceLetter, rgb, RGB2string, toGlobal, toLocal, transparent } from "@/app/data/management";
+import { ReplaceLetter, rgb, transparent } from "@/app/data/management";
 import { Graph } from "@/app/data/props";
-import useResize from "@/app/hooks/useResize";
 import { useAtom } from "jotai";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { motion } from 'framer-motion';
