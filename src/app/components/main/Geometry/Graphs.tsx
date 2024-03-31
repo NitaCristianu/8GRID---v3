@@ -1,4 +1,4 @@
-"use client"
+/*"use client"
 import dynamic from 'next/dynamic';
 import { GRAPHS } from "@/app/data/elements";
 import { ACCENT, BACKGROUND, GRID_POSITION, HOVERING_GRAPHS, HOVERING_LABELS, MODE, SECONDARY, SELECTED_GRAPH, VARIABLES, vec2D } from "@/app/data/globals";
@@ -246,3 +246,4 @@ const GraphsComponent = React.memo(() => {
 GraphsComponent.displayName = "graphs-component";
 
 export default GraphsComponent;
+*/
